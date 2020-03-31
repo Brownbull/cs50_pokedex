@@ -2,11 +2,11 @@ package com.utilone.cs_pokedex;
 
 public class Pokemon {
     private String name;
-    private  int number;
+    private String url;
 
-    public Pokemon(String name, int number) {
+    public Pokemon(String name, String url) {
         this.name = name;
-        this.number = number;
+        this.url = url;
     }
 
     public String getName() {
@@ -17,11 +17,11 @@ public class Pokemon {
         this.name = name;
     }
 
-    public int getNumber() {
-        return number;
+    public String getUrl() {
+        return url;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setUrl(String url) {
+        this.url = url;
     }
 } // eof class Pokemon
